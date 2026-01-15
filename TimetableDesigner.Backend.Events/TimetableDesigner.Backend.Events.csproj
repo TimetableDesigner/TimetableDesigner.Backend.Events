@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <Title>TimetableDesigner.Backend.Events</Title>
         <Authors>Mateusz Skoczek</Authors>
-        <PackageProjectUrl>https://github.com/TimetableDesigner/</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/TimetableDesigner</PackageProjectUrl>
         <PackageIcon>icon.png</PackageIcon>
         <RepositoryUrl>https://github.com/TimetableDesigner/TimetableDesigner.Backend.Events</RepositoryUrl>
     </PropertyGroup>
