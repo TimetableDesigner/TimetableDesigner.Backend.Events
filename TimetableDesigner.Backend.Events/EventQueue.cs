@@ -4,5 +4,5 @@ namespace TimetableDesigner.Backend.Events;
 
 public abstract class EventQueue
 {
-    internal abstract void Setup(IServiceCollection services);
+    public abstract void Setup(IServiceCollection services);
 }
