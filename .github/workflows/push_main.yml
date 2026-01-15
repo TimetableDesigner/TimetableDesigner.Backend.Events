@@ -42,6 +42,7 @@ jobs:
       version: ${{ steps.gitversion.outputs.SemVer }}
   publish:
     name: Publish 
+    permissions: write-all
     runs-on: ubuntu-latest
     needs: build
     steps:
