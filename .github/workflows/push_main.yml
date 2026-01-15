@@ -1,7 +1,7 @@
-name: Build NuGet package on main branch pull request
+name: Build NuGet package on main branch push
 
 on:
-  pull_request:
+  push:
     branches:
       - "main"
     paths:
