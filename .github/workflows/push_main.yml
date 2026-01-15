@@ -33,7 +33,7 @@ jobs:
       - name: Create NuGet package
         run: dotnet pack -c Release -p:Version=${{steps.gitversion.outputs.SemVer}} -p:PackageVersion=${{steps.gitversion.outputs.SemVer}} --output ${{ github.workspace}}/nuget
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v6
         with:
           name: nuget
           path: ${{ github.workspace}}/nuget/*.nupkg
