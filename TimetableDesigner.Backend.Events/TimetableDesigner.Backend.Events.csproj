@@ -9,7 +9,6 @@
         <PackageProjectUrl>https://github.com/TimetableDesigner/</PackageProjectUrl>
         <PackageIcon>icon.png</PackageIcon>
         <RepositoryUrl>https://github.com/TimetableDesigner/TimetableDesigner.Backend.Events</RepositoryUrl>
-        <Version />
     </PropertyGroup>
 
     <ItemGroup>
